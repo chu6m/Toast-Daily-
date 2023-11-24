@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+body {
+  background-image: url(images/7.jpg);
+  background-size: cover;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius:3px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+</style>
+</head>
+<body style="background-image: ('images\1.jpg');"><div class="topnav">
+  <a href="assignment.html">Home</a>
+  <a href="photos.html">Gallery</a>
+  <a href="bro.html">About Us</a>
+  <a class="active" href="contacts.html">Contact Us</a>
+</div>
+
+
+<h3>Contact Form</h3>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="">
+
+    <label for="fname">Phone Number</label>
+    <input type="text" id="fname" name="firstname" placeholder="">
+
+    <label for="fname">Description</label>
+    <input type="text" id="fname" name="firstname" placeholder="">
+    <div>
+                   
+                   <label for="gender-male">Male</label>
+                   <input type="radio" name="gender-choice" value="choice-1">
+                   
+                   <label for="gender-female">Female</label>
+                   <input type="radio" name="gender-choice" value="choice-2">
+                   
+                           
+                <div>
+               
+
+
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
